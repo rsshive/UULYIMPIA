@@ -1,0 +1,6 @@
+{
+  "summary":  "Kế hoạch triển khai:\n1. Chuyển toàn bộ âm thanh sang màn hình chiếu Presentation, câm hoàn toàn ở màn hình Host:\n   - Chỉ cho phép phát âm thanh (nhạc nền timer soundtrack, âm đúng/sai, tiếng tick, chiến thắng) khi đang ở màn hình chiếu (?view=presentation).\n   - Tắt hoàn toàn âm thanh ở màn hình Host (isSoundMuted = true khi ở Host View) để tránh bị vang đôi hoặc làm phiền người dẫn chương trình.\n2. Thêm hiệu ứng Waterfall cho Bảng điểm (PresentationScoreboard):\n   - Tiêu đề 'BẢNG XẾP HẠNG' trượt êm ái từ trên xuống.\n   - Từng thẻ xếp hạng của các đội (Top 1, Top 2, Top 3,...) xuất hiện theo thứ tự dạng thác nước (waterfall cascade) với độ trễ so le (animation-delay: 80ms, 160ms, 240ms,...) tạo hiệu ứng truyền hình hoành tráng.",
+  "updatedAt":  "2026-09-29T03:33:30.623697917Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
